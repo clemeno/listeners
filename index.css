@@ -1,0 +1,204 @@
+html, body {
+    font: 400 1em/1.5 Arial, sans-serif;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+body {
+    background: rgb(11, 23, 56);
+    background: -moz-linear-gradient( top, rgba(11, 23, 56, 1) 0%, rgba(21, 45, 114, 1) 67%, rgba(8, 27, 56, 1) 67%, rgba(8, 27, 56, 1) 67%, rgba(53, 60, 99, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(11, 23, 56, 1) 0%, rgba(21, 45, 114, 1) 67%, rgba(8, 27, 56, 1) 67%, rgba(8, 27, 56, 1) 67%, rgba(53, 60, 99, 1) 100%);
+    background: linear-gradient(to bottom, rgba(11, 23, 56, 1) 0%, rgba(21, 45, 114, 1) 67%, rgba(8, 27, 56, 1) 67%, rgba(8, 27, 56, 1) 67%, rgba(53, 60, 99, 1) 100%);
+}
+
+#chars {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 67%;
+    right: 0;
+}
+
+.char {
+    position: absolute;
+    width: 30px;
+}
+
+.char .head {
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 100%;
+    display: inline-block;
+    height: 25px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30px;
+    z-index: 2;
+}
+
+.char .eye {
+    background-color: #000;
+    border-radius: 3px;
+    display: inline-block;
+    height: 4px;
+    position: absolute;
+    top: 40%;
+    width: 4px;
+}
+
+.char .eye.left {
+    left: 18%;
+}
+
+.char .eye.right {
+    right: 18%;
+}
+
+.char .body {
+    left: 0;
+    position: absolute;
+    top: 25px;
+    width: 100%;
+}
+
+.char .body .top {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.char .body .arm {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    bottom: 0;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 5px;
+}
+
+.char .body .arm.left {
+    left: 0;
+}
+
+.char .body .arm.right {
+    right: -4px;
+}
+
+.char .body .inside {
+    background-color: #fff;
+    border: 2px solid #000;
+    bottom: -2px;
+    left: 7px;
+    position: absolute;
+    right: 3px;
+    top: 0;
+    z-index: 1;
+}
+
+.char .body .bottom {
+    height: 25px;
+    left: 0;
+    position: absolute;
+    right: -4px;
+    top: 20px;
+}
+
+.char .body .leg {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    bottom: 7px;
+    position: absolute;
+    top: -5px;
+    width: 5px;
+}
+
+.char .body .leg.left {
+    left: 20%;
+}
+
+.char .body .leg.right {
+    right: 20%;
+}
+
+.char.skin-1 .head, .char.skin-1 .arm {
+    background-color: #EDCEB1;
+}
+
+.char.skin-2 .head, .char.skin-2 .arm {
+    background-color: #f7d96a;
+}
+
+.char.skin-3 .head, .char.skin-3 .arm {
+    background-color: #ac8c6e;
+}
+
+.char.skin-4 .head, .char.skin-4 .arm {
+    background-color: #4a3e32;
+}
+
+.char.tshirt-1 .inside {
+    background-color: #EDD042;
+}
+
+.char.tshirt-2 .inside {
+    background-color: #b3260d;
+}
+
+.char.tshirt-3 .inside {
+    background-color: #4da121;
+}
+
+.char.tshirt-4 .inside {
+    background-color: #2152a1;
+}
+
+.char.tshirt-5 .inside {
+    background-color: #c672d7;
+}
+
+.char.tshirt-6 .inside {
+    background-color: #f0f0e8;
+}
+
+.char.tshirt-7 .inside {
+    background-color: #abadaa;
+}
+
+.char.tshirt-8 .inside {
+    background-color: #272729;
+}
+
+.char.trousers-1 .leg {
+    background-color: #053577;
+}
+
+.char.trousers-2 .leg {
+    background-color: #568fde;
+}
+
+.char.trousers-3 .leg {
+    background-color: #e3e7ec;
+}
+
+.char.trousers-4 .leg {
+    background-color: #848687;
+}
+
+.char.trousers-5 .leg {
+    background-color: #2e2e2e;
+}
+
+.char.trousers-6 .leg {
+    background-color: #c8b693;
+}
